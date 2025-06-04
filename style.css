@@ -1,7 +1,7 @@
 @font-face
 {
 font-family: 'MyCustomFont';
-  src: url('/assets/Norse-Bold.otf');
+  src: url('./assets/Norse-Bold.otf');
   font-weight: bold;
   font-style: normal;
 }
