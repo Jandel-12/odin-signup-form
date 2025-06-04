@@ -1,0 +1,149 @@
+@font-face
+{
+font-family: 'MyCustomFont';
+  src: url('/assets/Norse-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* css style */
+
+/* Container-left content */
+main
+{
+    display: flex;
+
+}
+.container-left
+{
+    background-image: url(assets/photo-1585202900225-6d3ac20a6962.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 45vw;
+    position: relative;
+}
+
+.container-left img{
+    width: 18%;
+}
+.brand
+{
+    width: 100%;
+    font-family: 'MyCustomFont', sans-serif;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    font-size: 4.5rem;
+}
+
+.brand div{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); 
+    top: 20%;
+    padding: 1rem;
+}
+
+.container-left .credits
+{
+    color: whitesmoke;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 3.5rem;
+}
+
+/* container-right */
+.container-right
+{
+     background-color: rgb(228, 226, 226);
+}
+blockquote
+{
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 3rem;
+   
+}
+.form-container
+{
+    padding: 2rem 2rem;
+    background-color: white;
+}
+form
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem 3rem;
+}
+
+form div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+}
+
+div input
+{
+    width: 70%;
+}
+
+.last-div
+{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#create
+{
+    background-color: #596D48;
+    padding: .5rem;
+    color: aliceblue;
+    border-radius: .5rem;
+    width: 20%;
+}
