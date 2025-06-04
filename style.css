@@ -1,8 +1,8 @@
 @font-face
 {
 font-family: 'MyCustomFont';
-  src: url('/assets/Norse-Bold.otf') format('opentype');
-  font-weight: normal;
+  src: url('/assets/Norse-Bold.otf');
+  font-weight: bold;
   font-style: normal;
 }
 /* reset */
